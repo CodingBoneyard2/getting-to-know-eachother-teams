@@ -11,6 +11,29 @@ body {
     font-family: var(--Poppins-font);
 }
 /* DO NOT modify the classes above */
+
+
+
+/* Hero Section */
+.banner {
+    background-color: #080808;
+    margin: auto;
+    max-height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 500px;
+    opacity: 0.5;
+}
+
+
+
+/* Codeboneyard2 Works */
 .works-back {
     width: 100%;
     display: flex;
@@ -31,6 +54,8 @@ body {
 }
 
 
+
+/* Individual Portfolio */
 .portfolio-back {
     width: 100%;
     display: flex;
@@ -57,11 +82,20 @@ body {
 }
 .portfolio-card {
     color: #FDFFFC;
-    padding: 10px;
     background-color: #6b2d2d;
     border-radius: 15px;
-    max-width: 280px;
-    min-width: 200px;
+    width: 265px;
+    max-height: 400px;
+}
+.portfolio-card img {
+    max-width: 265px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+.portfolio-card p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .portfolio-card:hover {
     background-color: #562525;

@@ -33,6 +33,22 @@ body {
 
 
 
+.intro-back {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro {
+    max-width: 1144px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+
+
+
 /* Codeboneyard2 Works */
 .works-back {
     width: 100%;
